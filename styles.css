@@ -1,0 +1,217 @@
+body, html{
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+.background-image{
+    background-image: url(./images/developer\ kit.jpeg);
+    /* filter: blur(1.5px);
+    -webkit-filter: blur(1.5px); */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-text{
+    background-color: rgb(8, 7, 7);
+    background-color: rgba(1, 1, 1, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 5px solid #fbef82;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 97%;
+    padding: 20px;
+    text-align: center;
+}
+#nav-bar{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    width: 100%;
+}
+#nav-link{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#nav-link1{
+    color: white;
+}
+.icon{
+    background-color: white;
+}
+#nav-shift{
+    margin-left: 30px;
+}
+#icon-text{
+    font-size: 20px;
+    color: white;
+}
+#name2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+#name3{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    color: #fbef82;
+    letter-spacing: 3px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#name4{
+    font-family: 'Bruno Ace', cursive;
+    font-size: larger;
+    text-transform: uppercase;
+    color: #FFF4F4;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+#me{
+    color: black;
+}
+#skills{
+    margin-bottom: 20px;
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+}
+#web-design{
+    border: 3px solid white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+#web-des{
+    margin-top: 60px;
+    color: midnightblue;
+}
+#contact-me{
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+#contact-btn{
+    margin-top: 20px;
+    background-color: black;
+    border: 0;
+    padding: 10px;
+}
+#icon1{
+    margin-left: 7px;
+}
+#footer{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.fa-solid.fa-chess-queen.fa-beat-fade.fa-2x{
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.fa-regular.fa-address-book.fa-beat.fa-1x{
+    margin-left: 7px;
+    color: white;
+}
+.fa-brands.fa-facebook.fa-beat-fade{
+    color: midnightblue;
+}
+.fa-brands.fa-twitter.fa-beat-fade.fa-2x{
+    color: rgb(58, 173, 239);
+}
+.fa-brands.fa-instagram.fa-beat-fade.fa-2x{
+    color: rgb(238, 8, 12);
+}
+button:hover{
+    font-size: larger;
+    color: rgb(45, 43, 43);
+}
+
+@media (max-width: 320px){
+    #search{
+        width: 180px;
+        height: 20px;
+    }
+}
+@media (max-width: 600px){
+    .background-image{
+        width: 100%;
+    }
+    .background-text{
+        top: 55%;
+    }
+    #name3{
+        display: block;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 30px;
+        color: #fbef82;
+        letter-spacing: 3px;
+    }
+    #name4{
+        display: block;
+        font-family: 'Bruno Ace', cursive;
+        font-size: 30px;
+    }
+    #web-design{
+        width: 93%;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    #web-des{
+        margin-top: 30px;
+    }
+    #hero{
+        margin-top: 0;
+        padding: 0;
+    }
+    .fa-solid.fa-chess-queen.fa-beat-fade.fa-2x{
+        height: 1em;
+    }
+    #icon-text{
+        font-size: 15px;
+    }
+    #search{
+        width: 250px;
+        height: 30px;
+    }
+}
+
+/* @media (min-width: 900px){
+    #search{
+        width: 90%;
+        height: 30px;
+    }
+}
+@media (max-width: 912px){
+    #search{
+        width: 500px;
+        height: 30px;
+    }
+    #nav-bar{
+        width: 100%;
+    }
+} */
+@media (max-width: 1280px){
+    #web-design{
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    #search{
+        margin-top: -10px;
+        width: 150px;
+        height: 20px;
+    }
+}
+@media (max-width: 1320px){
+    #web-des{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    #web-des1{
+        margin-left: 50px;
+    }
+}
